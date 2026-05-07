@@ -12,8 +12,9 @@ The repository includes real-world comparative examples using contraceptive care
 ## Authors
 * **Samuel Field** 
 * **Fei Dong** 
-* **Eric Booth** www.github.com/ericabooth
-* **Philip Hastings** 
+* **Eric Booth** [github](www.github.com/ericabooth)
+* **Philip Hastings**
+* Pat Malone
 **Affiliation**: Far Harbor, LLC, Austin, TX, United States of America.
 
 ---
