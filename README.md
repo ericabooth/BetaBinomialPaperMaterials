@@ -1,27 +1,27 @@
+
 # BetaBinomialPaperMaterials
 
-[cite_start]This repository contains the pre-print manuscript and accompanying R code for the methodological paper **"Rethinking 'Signal-To-Noise': A Coherent Beta-Binomial Reliability Formulation for Assessing Quality Measures"**[cite: 1, 2]. 
+This repository contains the pre-print manuscript and accompanying R code for the methodological paper **"Rethinking 'Signal-To-Noise': A Coherent Beta-Binomial Reliability Formulation for Assessing Quality Measures"**. 
 
-[cite_start]The paper derives and advocates for an alternative beta-binomial reliability formulation that aligns with classical test theory (CTT)[cite: 37]. [cite_start]This formulation provides a more mathematically coherent and stable alternative to the widely used Adams (2009) "signal-to-noise" approach[cite: 36, 37]. [cite_start]The methodology is particularly relevant for assessing health care quality measures used in provider profiling and pay-for-performance programs[cite: 35]. 
+The paper derives and advocates for an alternative beta-binomial reliability formulation that aligns with classical test theory (CTT). This formulation provides a more mathematically coherent and stable alternative to the widely used Adams (2009) "signal-to-noise" approach. The methodology is particularly relevant for assessing health care quality measures used in provider profiling and pay-for-performance programs. 
 
-[cite_start]The repository includes real-world comparative examples using contraceptive care measures (the moderate-rate "Most-Mod" measure and the low-rate "LARC" measure) aggregated across 99 Iowa counties using Medicaid data[cite: 38]. 
+The repository includes real-world comparative examples using contraceptive care measures (the moderate-rate "Most-Mod" measure and the low-rate "LARC" measure) aggregated across 99 Iowa counties using Medicaid data. 
 
 ---
 
 ## Authors
-* [cite_start]**Samuel Field** [cite: 3]
-* [cite_start]**Fei Dong** [cite: 5]
-* [cite_start]**Eric Booth** [cite: 7]  www.github.com/ericabooth
-* [cite_start]**Philip Hastings** [cite: 9]
-
-[cite_start]**Affiliation**: Far Harbor, LLC, Austin, TX, United States of America[cite: 4, 6, 8, 10].
+* **Samuel Field** 
+* **Fei Dong** 
+* **Eric Booth** www.github.com/ericabooth
+* **Philip Hastings** 
+**Affiliation**: Far Harbor, LLC, Austin, TX, United States of America.
 
 ---
 
 ## Repository Contents
 
 ### Manuscript
-* [cite_start]**`Round 2_Revise_Resubmit_A Coherent Beta-Binomial Reliability Formulation for Assessing Quality Measures_05062026.pdf`**: The full pre-print manuscript[cite: 1]. [cite_start]It outlines the mathematical derivations equating the proposed reliability formulation to the Empirical Bayes (EB) shrinkage factor and provides empirical comparisons against the Adams (2009) approach[cite: 37, 38].
+* **`Round 2_Revise_Resubmit_A Coherent Beta-Binomial Reliability Formulation for Assessing Quality Measures_05062026.pdf`**: The full pre-print manuscript. It outlines the mathematical derivations equating the proposed reliability formulation to the Empirical Bayes (EB) shrinkage factor and provides empirical comparisons against the Adams (2009) approach.
 
 ### R Code & Tools
 * **`beta_rel_method.R`**: An R script containing the `beta_rel` function. This function estimates the beta-binomial model and calculates the proposed reliability statistic for cluster-level data (e.g., clinics, counties, or providers). It outputs a merged dataset containing the original data and the calculated reliability.
@@ -52,3 +52,4 @@ To use the tools provided in this repository:
 3. Ensure your dataset contains variables for the **cluster ID**, the **count of service incidents** (numerator), and the **total count of eligible patients** (denominator).
 4. Run the desired function (`beta_rel` or `beta.rel.threshold`) by passing your dataset's specific variables as arguments. 
 5. Merge the function's output data frame back with your original dataset to append the reliability statistics.
+```
