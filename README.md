@@ -1,5 +1,6 @@
 
 # BetaBinomialPaperMaterials
+_forked from @farharboratx_
 
 This repository contains the pre-print manuscript and accompanying R code for the methodological paper **"Rethinking 'Signal-To-Noise': A Coherent Beta-Binomial Reliability Formulation for Assessing Quality Measures"**. 
 
