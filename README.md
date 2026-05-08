@@ -1,10 +1,10 @@
 
-# BetaBinomialPaperMaterials
+# Beta Binomial Materials (pre-print manuscript)
 _forked from @farharboratx_
 
-This repository contains the pre-print manuscript and accompanying R code for the methodological paper **"Rethinking 'Signal-To-Noise': A Coherent Beta-Binomial Reliability Formulation for Assessing Quality Measures"**. 
+This repository contains the pre-print manuscript and accompanying R code for our methodological paper **"Rethinking 'Signal-To-Noise': A Coherent Beta-Binomial Reliability Formulation for Assessing Quality Measures"**. 
 
-The paper derives and advocates for an alternative beta-binomial reliability formulation that aligns with classical test theory (CTT). This formulation provides a more mathematically coherent and stable alternative to the widely used Adams (2009) "signal-to-noise" approach. The methodology is particularly relevant for assessing health care quality measures used in provider profiling and pay-for-performance programs. 
+in this paper, we derive and advocate for an an alternative beta-binomial reliability formulation that aligns with classical test theory (CTT). This formulation provides a more mathematically coherent and stable alternative to the widely used Adams (2009) "signal-to-noise" approach. The methodology is particularly relevant for assessing health care quality measures used in provider profiling and pay-for-performance programs. 
 
 The repository includes real-world comparative examples using contraceptive care measures (the moderate-rate "Most-Mod" measure and the low-rate "LARC" measure) aggregated across 99 Iowa counties using Medicaid data. 
 
